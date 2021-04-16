@@ -1,9 +1,7 @@
 
 fetch json file directly using fetch api in index.js.
 
-reult is shown here:
-
-[image](https://user-images.githubusercontent.com/48875508/115004293-3dfcc680-9ed9-11eb-82c0-9c87a5fa54a7.png)
+reult is shown in result.png
 
 
 ------------------
