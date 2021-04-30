@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+    <style>
+        .stick {
+            width: 100px;
+            height: 4px;
+            background: #f50;
+            animation-name: rotate;
+            animation-duration: 0.7s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes rotate {
+            0% {
+                height: 4px;
+            }
+
+            50% {
+                height: 100px;
+            }
+
+            100% {
+                height: 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="btn">get fibonacci(n):</button>
+        <input id="input" />
+        <span id="ans"></span>
+        <span id="time"></span>
+
+        <div class="stick"></div
+    </div>
+</body>
+
+<script>
+
+function* fibonacci(n) {
+    if (n <= 0) return undefined;
+    if (n <= 2) return 1;
+
+    var prev = 1;
+    var curr = 1;
+    for (let i = 3; i <= n; ++i) {
+        var tmp = curr; 
+        curr += prev;
+        prev = tmp;
+        yield curr;
+    }
+
+    return curr;
+}
+
+var ans = 'undefined';
+btn = document.getElementById('btn');
+btn.addEventListener('click', () => {
+    var start = new Date();
+	input = document.getElementById('input');
+    var generator = fibonacci(input.value);
+    // gen = fibonacci3(n);
+    window.requestAnimationFrame(function step() {
+        let val = generator.next().value;
+        if (val) {
+            ans = val;
+            window.requestAnimationFrame(step);
+        }
+        else {
+			console.log("here");
+			document.getElementById('ans').innerText = ans;
+			document.getElementById('time').innerText = ans!='undefined' ? (new Date - start) + ('ms') : '';
+        }
+    });
+});
+
+</script>
+</html>
