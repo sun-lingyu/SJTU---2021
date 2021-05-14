@@ -1,0 +1,45 @@
+{
+    "data":[
+        {
+            "link":"//i.meituan.com/deal/635301327.html",
+            "img":"89801fdf15ef6236bd90f30c7e93fc62761277.jpg",
+            "title":"豫园旺季成人下午票（12:30-16:00）",
+            "subtitle":"[全国]豫园旺季成人下午票（12:30-16:00",
+            "price":"40",
+            "sold":33436
+        },
+        {
+            "link":"//i.meituan.com/deal/43112096.html",
+            "img":"83395320e0926114d767e20563e0318f941985.jpg",
+            "title":"六里香奶油草莓采摘园",
+            "subtitle":"[金山区]自提白草莓、需预定",
+            "price":"40",
+            "sold":255
+        },
+        {
+            "link":"//i.meituan.com/deal/43893884.html",
+            "img":"16abb3b13502d232b84a68ef34be8047145128.jpg",
+            "title":"御池园",
+            "subtitle":"[淞滨地区]单人浴资+中式简餐(吴淞店)",
+            "price":"79",
+            "sold":470
+        },
+        {
+            "link":"//i.meituan.com/deal/48080672.html",
+            "img":"0fea1d412a1045aa7ea26abaf2be24a768967.jpg",
+            "title":"纽斯桑拿会所",
+            "subtitle":"[世纪公园/科技馆]单人浴资券+矿泉水",
+            "price":"78",
+            "sold":75102
+        },
+        {
+            "link":"//i.meituan.com/deal/40460863.html",
+            "img":"a2b41c453597d2710221c8bedc0e1bd777233.jpg",
+            "title":"西树泡芙CHEZ CHOUX",
+            "subtitle":"[2店通用]30元代金券1张，可叠加",
+            "price":"23.8",
+            "sold":9440
+        }
+
+    ]
+}

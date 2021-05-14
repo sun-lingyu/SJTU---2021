@@ -1,0 +1,49 @@
+.main_wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.meituan{
+    background-color: #FFD614;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main_pic{
+    padding-top: 1em;
+    padding-bottom:1em;
+    height: 20%;
+    overflow: hidden;
+}
+
+.main_bottom{
+    order:1;
+    background-color: black;
+    padding-top:2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.main_bottom .btn{
+        display: inline-block;
+        height: 2rem;
+        padding: 0 .32rem;
+        margin: 0;
+        text-align: center;
+        border-radius: .3rem;
+        font-size: 1rem;
+        vertical-align: middle;
+        line-height: .6rem;
+        border: 0;
+        color: #fff;
+        background-color: #FF4B10;
+        box-sizing: border-box;
+        cursor: pointer;
+}
